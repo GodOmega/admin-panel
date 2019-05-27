@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="pagina">
+            <header class="header">
+                <div class="name">
+                    <h1 class="desktop">Admin Panel</h1>
+                    <h1 class="mobile">AP</h1>
+                </div>
+
+                <div class="menu-header">
+                    <div class="menu-lateral">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <ul>
+                        <li class="items-menu"><a href="#">Perfil</a></li>
+                        <li class="items-menu"><a href="#">Cerrar sesion</a></li>
+                    </ul>
+                </div>   
+            </header>
+
+            <aside class="panel-menu">
+                <span class="close">
+                    <i class="fas fa-times"></i>
+                </span>
+                <div class="header-menu">
+                    <i class="fas fa-user icono"></i>
+                    <div class="cuerpo-header-menu">
+                        <h3>Bienvenido:</h3>
+                        <span>God Omega</span>
+                    </div>
+                </div>
+                <div class="body-menu">
+                    <h3> Administrator Menu</h3>
+                    <ul class="main-menu">
+                        <li class="list-menu">
+                            <a href="#">
+                                <i class="fas fa-money-check-alt">
+                                <span class="span"></span></i>
+                                Cuentas
+                            </a>
+                            <ul class="sub-list">
+                                <li >
+                                    <a href="#">Clientes</a>
+                                </li>
+                                <li >
+                                    <a href="#">Contribuidor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-menu">
+                            <a href="#">
+                                <i class="fas fa-users">
+                                    <span class="span"></span>
+                                </i>
+                                Usuarios
+                            </a>
+                            <ul class="sub-list">
+                                <li>
+                                    <a href="#">Moderador</a>
+                                </li>
+                                <li>
+                                    <a href="#">Editor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-menu">
+                            <a href="#">
+                                <i class="fas fa-chart-line">
+                                </i>
+                                Gráficos
+                            </a>
+                            <ul class="sub-list">
+                                <li>
+                                    <a href="#">relativos</a>
+                                </li>
+                                <li>
+                                    <a href="#">absolutos</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-menu">
+                            <a href="#">
+                                <i class="fas fa-address-book">
+                                </i>
+                                Registros
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </aside>
+
+            <main class="main-content">
+                <div class="graficos overlay">
+                    <h2>Analytics </h2>
+                    <img src="img/graf1.png" class="uno">
+                    <img src="img/graf2.jpg">
+                </div>
+                <div class="tabla">
+                    <h2>Activity</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>category</th>
+                                <th>Active</th>
+                                <th>Inactive</th>
+                                <th>Total existence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Users</td>
+                                <td>500</td>
+                                <td>620</td>
+                                <td>1200</td>
+                            </tr>
+
+                            <tr>
+                                <td>Moderator</td>
+                                <td>15</td>
+                                <td>35</td>
+                                <td>50</td>
+                            </tr>
+
+                            <tr>
+                                <td>Colaborator</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>30</td>
+                            </tr>
+
+                            <tr>
+                                <td>Admin</td>
+                                <td>5</td>
+                                <td>10</td>
+                                <td>15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <p> Made with love
+                    <i class="fas fa-heart"></i>
+                </p>
+            </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
